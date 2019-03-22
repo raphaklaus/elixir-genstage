@@ -1,0 +1,11 @@
+{application,playgenstage,
+             [{applications,[kernel,stdlib,elixir,logger,gen_stage]},
+              {description,"playgenstage"},
+              {modules,['Elixir.Playgenstage',
+                        'Elixir.Playgenstage.Application',
+                        'Elixir.Playgenstage.Consumer',
+                        'Elixir.Playgenstage.Producer',
+                        'Elixir.Playgenstage.Supervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Playgenstage.Application',[]}}]}.
